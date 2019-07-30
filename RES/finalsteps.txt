@@ -1,0 +1,25 @@
+if you try case 1:
+connected your main Arduino uno R3 with computer to generate the necessary ppm signals.
+further you only need to connect 3 pins from your arduino uno R3 to the transceiver module.
+
+draw table for the connection pins from arduino to geobish
+
+
+if you try case 2:
+Here it becomes complex as you need to connect your arduino mini with nRF24L01 module
+connect both the things as per the below mentioned table.
+
+draw table for connection pins from pro mini to nrf24l01
+
+
+new step: binding
+
+Once the devices are connected as per the last step, the only thing that remains is binding.
+case 1:
+Here its simple as the module that we have already has the latest code inside and hence you
+only need to run the ppm generation code to the Arduino. Now turn on the RC quadcopter by connecting
+battery wires and you will see the blinking LEDs. 
+In 3-4 seconds you will observe the steadily turned on LEDs. Now all you need to do is execute the final step.
+
+case 2:
+In this case, you actually need to dive a bit deep inside the case. Here you need to replace the 
